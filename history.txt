@@ -1,0 +1,137 @@
+   12  mkdir git
+   13  cp ~/Desktop/index.html ~/Desktop/git/index.html
+   14  cp ~/index.html ~/Desktop/git/index.html
+   15  cp ~/index.html ~/Desktop/git/index1.html
+   16  cp ~/index.html ~/Desktop/git/index2.html
+   17  cp ~/index.html ~/Desktop/git/index3.html
+   18  cd git
+   19  git clone https://github.com/SandraCotrim/new.git
+   25  cp .hidden ~/Desktop/git/new/css/
+   26  cp .hidden ~/Desktop/git/new/img/
+   27  mv .hidden ~/Desktop/git/new/js/
+   28  git config --global user.email sandragmc@gmail.com
+   29  git branch --unset-upstream
+   30  git push --set-upstream origin master
+   31  git add *
+   32  git status
+   33  git commit -m "newfiles"
+   34  git push
+   35  git status
+   36  git push master
+   40  git status
+   41  git add *
+   42  git commit -m "stuff"
+   43  git push git push --set-upstream origin master
+   44  git status
+   45  cd Desktop/git
+   46  git clone https://github.com/SandraCotrim/new.git
+   47  git status
+   49  git status
+   50  git add *
+   51  git commit -m "files"
+   52  git config --global user.email sandragmc@gmail.com
+   53  git push master
+   54  git config --global push.default simple
+   55  git statys
+   56  git status
+   57  git branch --unset-upstream
+   58  git push --set-upstream origin master
+   59  git status
+   60  cp ~/Desktop/git/index1.html ~/Desktop/git/new/
+   61  cp ~/Desktop/git/index2.html ~/Desktop/git/new/
+   62  cp ~/Desktop/git/index3.html ~/Desktop/git/new/
+   63  rm ~/Desktop/git/*.html
+   70  git status
+   71  git add *
+   72  git commit -m "files"
+   73  git pull
+   74  git push
+   76  git add *
+   77  git commit -m "index"
+   78  git pull
+   79  git push
+   80  git branch v0.0.1
+   81  git checkout v0.0.1
+   84  git rm index2.html
+   85  git rm index3.html
+   86  git status
+   87  git commit -m "rm"
+   88  git push origin v0.0.1
+   90  git checkout master
+   94  cp ~/Desktop/*.png ~/Desktop/git/new/img/
+   95  git add *
+   96  git commmit -m "pics"
+   97  git commit -m "pics"
+   98  git pull
+   99  git push origin master
+  100  git checkout v0.0.1
+  101  git merge master -m "merge"
+  102  git push
+  103  git push origin master
+  104  git branch
+  105  git status
+  107  git status
+  108  git branch master
+  109  git checkout master
+  110  git add *
+  111  git commit -m "skjdg"
+  112  git push
+  113  git branch
+  114  git checkout v0.0.1
+  115  git merge master -m "ksjf"
+  116  git push origin v0.0.1
+  119  find ~/Desktop/git/new/ -name "*.png"
+  120  find ~/Desktop/git/new/ -name "*.html"
+  121  git granch
+  122  git branch
+  123  cd git/new
+  124  git branch
+  125  git status
+  127  git merge master -m "skjf"
+  128  git checkout master
+  130  git add *
+  131  git commit -m "jkshdf"
+  132  git push
+  133  git checkout v0.0.1
+  134  git merger master -m "alkfj"
+  135  git merge master -m "alkfj"
+  137  git merge master -m "alkfj"
+  138  git status
+  139  git rm index2.html
+  160  mkdir git
+  161  cd git
+  162  git clone https://github.com/SandraCotrim/Exam.git
+  163  cp ~/exam/ ~/Desktop/git/Exam/
+  165  cp ~/exam ~/Desktop/git/Exam/
+  168  ditto exam ~/Desktop/git/Exam/
+  169  cd ~/Desktop/git/Exam/
+  171  git status
+  173  git status
+  174  git add *
+  175  git commit -m "stuff"
+  176  git push origin master
+  180  git branch v2.0
+  181  git checkout v2.0
+  182  git status
+  183  git push origin v2.0
+  184  git checkout master
+  186  git status
+  187  git add *
+  188  git commit -m "index"
+  189  git push origin master
+  190  git checkout v2.0
+  191  git merge master -m "bla"
+  192  git push origin v2.0
+  194  git branch v3.0
+  195  git checkout v3.0
+  196  git push origin v3.0
+  197  git checkout master
+  199  git status
+  200  git add *
+  201  git commit -m "index again"
+  202  git push origin master
+  203  git checkout v3.0
+  204  git merge master
+  205  git push origin v3.0
+  207  git checkout master
+  211  history | grep "git" > history.txt
